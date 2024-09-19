@@ -58,6 +58,7 @@ section {
 
 section.imagem {
     box-shadow: inset  0px 10px 10px rgb(0, 0, 0, 0.5), inset 0px -10px 10px rgb(0, 0, 0, 0.5);
+    padding: 30px;
 }
 
 section.imagem:hover .patinha {
@@ -72,6 +73,7 @@ section.imagem:not(hover) .patinha {
 
 .patinha {
     height: 400px;
+    max-width: 90vw;
     background-image: url(cat-paw.png);
     width: 400px;
     background-size: contain;
@@ -80,6 +82,18 @@ section.imagem:not(hover) .patinha {
     background-attachment: scroll;
     position: absolute;
 
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        font-family: var(--fonte1);
+        font-size: 2em;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    } 
 }
 
 section.imagem p {
