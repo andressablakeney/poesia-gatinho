@@ -88,12 +88,28 @@ section.imagem:not(hover) .patinha {
     section {
         font-family: var(--fonte1);
         font-size: 2em;
-        height: 500px;
+        height: 400px;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 40px;
     } 
+    
+    section.imagem#imagem1 {
+        background-image: url(gatinho-branco.jpg);
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
+    
+    section.imagem#imagem2 {
+        background-image: url(gatinho-cinza.jpg);
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
 }
 
 section.imagem p {
