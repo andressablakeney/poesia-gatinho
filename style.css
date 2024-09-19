@@ -27,7 +27,7 @@ header h1 {
     font-family: var(--fonte2);
     font-weight: normal;
     color: antiquewhite;
-    font-size: 5em;
+    font-size: 4em;
     text-transform: capitalize;
 }
 header p {
@@ -50,10 +50,10 @@ header a:hover {
 section {
     font-family: var(--fonte1);
     font-size: 2em;
-    height: 500px;
+    height:  400px;
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding-left: 40px;
 }
 
 section.imagem {
